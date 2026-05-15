@@ -1,0 +1,40 @@
+# Runtime plugin data
+plugins/CrusPlayerKits/player_data.yml
+plugins/CrusPlayerKits/player_data.db
+plugins/CrusPlayerKits/edit_backups.yml
+plugins/CrusPlayerKits/*.db
+plugins/CrusPlayerKits/*.db-journal
+plugins/CrusPlayerKits/*.sqlite
+plugins/CrusPlayerKits/*.sqlite3
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# Database dumps and backups
+*.sql
+*.dump
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.7z
+
+# Java/build artifacts
+*.jar
+build/
+.gradle/
+out/
+target/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
